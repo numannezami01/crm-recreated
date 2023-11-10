@@ -1,0 +1,155 @@
+.main{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(135, 207, 235, 0.898);
+}
+.left{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 620px;
+    background-color: red
+}
+.right{
+    position: relative;
+    left: 12%;
+    height: 100vh;
+    width: 600px;
+    /* background-color: aqua; */
+} 
+.formdiv{
+    position: relative;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(218, 216, 216, 0.37);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+       background: rgba(255, 255, 255, 0.25);
+}
+.h2{
+    position: relative;
+    top: -60px;
+    color:black;
+    text-transform: uppercase;
+    font-family: gilroy;
+}
+.input1{
+    position: relative;
+    
+    display: block;
+    height: 35px;
+    width: 320px;
+    border-radius: 5px;
+    outline: none;
+    top:-40px;
+    left: -10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    transition: 1s ease;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(218, 216, 216, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.input1:hover{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.483) ;
+}
+.input2{
+    position: relative;
+    
+    display: block;
+    height: 35px;
+    width: 320px;
+    border-radius: 5px;
+    outline: none;
+    top:-25px;
+    left: -10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    transition: 1s ease;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(218, 216, 216, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.input2:hover{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.483) ;
+
+}
+.button{
+    position: relative;
+    height: 35px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: gilroy;
+    text-transform: uppercase;
+    width: 200px;
+    top: 10px;
+    /* left: 20px; */
+    transition: 1s ease-in-out;
+    color: #505050;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 5px 0 30px 0;
+    cursor: pointer;
+    background: white;
+    box-shadow: 0 5px 32px 0 rgba(255, 255, 255, 0.5);
+    border: none;
+}
+.button:hover{
+    background-color: rgba(0, 128, 0, 0.464);
+    color: white;
+    cursor: pointer;
+}
+
+.text{
+    position: absolute;
+    z-index: 9999;
+    height:60px;
+    width: 250px;
+    bottom: 80%;
+    /* background-color: red; */
+}
+.text>h3{
+    text-align: left;
+    text-transform: capitalize;
+    font-family: gilroy;
+    position: relative;
+    font-size: 20px;
+}
+.forgot{
+    position: absolute;
+    text-transform: capitalize;
+    color: black;
+    height: 20px;
+    right: 50%;
+       top:65%;
+       text-decoration: none;
+       font-family: gilroy;
+       font-size: 20px;
+       font-weight: 600;
+}
+
+
