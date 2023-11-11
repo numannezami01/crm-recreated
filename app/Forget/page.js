@@ -12,7 +12,7 @@ const ForgotPassword = () => {
     e.preventDefault()
     if (!email) {
       setError('Email is required.');
-      return;
+      return;   
     }
 
     try {

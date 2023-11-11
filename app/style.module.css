@@ -80,6 +80,7 @@
 }
 .src{
     position: relative;
+    top:20%;
     padding: 15px;
     height: 15px;
     font-family: gilroy;
@@ -90,6 +91,8 @@
 }
 .icon{
     position: relative;
+    font-size: 20px;
     left: 80%;
-    bottom: 50%;
+    bottom: 24%;
+    color: rgba(0, 0, 255, 0.645);
 }
